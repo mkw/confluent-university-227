@@ -27,4 +27,5 @@ target/
 
 .DS_Store
 
-*.iml
+.idea/libraries/Maven_*
+.idea/workspace.xml

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/helloworld.iml" filepath="$PROJECT_DIR$/helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka_avro.iml" filepath="$PROJECT_DIR$/kafka_avro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/previous_data.iml" filepath="$PROJECT_DIR$/previous_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/streams.iml" filepath="$PROJECT_DIR$/streams.iml" />
+    </modules>
+  </component>
+</project>
