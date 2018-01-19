@@ -16,7 +16,7 @@ public class ShakespeareProducer {
     /**
      * Reads in every line of the input file and sends it with a KafkaProducer
      */
-    private final static String INPUT_PATH_NAME = "/home/training/developer/datasets/shakespeare";
+    private final static String INPUT_PATH_NAME = "/Users/mkw/dev/confluent-university-227/datasets/shakespeare";
 
     public void runProducer() throws IOException {
         KafkaProducer<String, String> producer = createProducer();
@@ -62,7 +62,7 @@ public class ShakespeareProducer {
      */
     private KafkaProducer<String, String> createProducer() {
         Properties props = new Properties();
-        props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "broker101:9092");
+        props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092,localhost:9093");
         props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
         props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
 

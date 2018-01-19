@@ -18,7 +18,7 @@ public class StreamsExercise {
         // Give the Streams application a unique name.  The name must be unique in the Kafka cluster
         streamsConfiguration.put(StreamsConfig.APPLICATION_ID_CONFIG, "streams-exercise1");
 
-        streamsConfiguration.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "broker101:9092");
+        streamsConfiguration.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092,localhost:9093");
         streamsConfiguration.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");
 
         // Specify default (de)serializers for record keys and for record values.
